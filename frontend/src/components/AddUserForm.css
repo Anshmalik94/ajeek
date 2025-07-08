@@ -1,0 +1,66 @@
+.add-user-form {
+  padding: 2rem;
+  background-color: transparent;
+  max-width: 700px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.add-user-form h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #0d47a1;
+}
+
+.add-user-form input[type="text"],
+.add-user-form input[type="email"] {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  background-color: transparent;
+  border: 1px solid #0d6efd;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #0d47a1;
+  outline: none;
+}
+
+.add-user-form input::placeholder {
+  color: #0d47a1;
+  opacity: 0.7;
+}
+
+.add-user-form label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #0d47a1;
+  margin: 6px 0;
+  justify-content: flex-start;
+}
+
+.add-user-form input[type="checkbox"] {
+  accent-color: #0d6efd;
+  width: 16px;
+  height: 16px;
+}
+
+.add-user-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.add-user-form button:hover {
+  background-color: #0a58ca;
+}
